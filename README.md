@@ -17,7 +17,7 @@
 **Dernière version stable :** V.1.0.0
 <br>
 **Dernière version :** V.1.0.0
-Liste des versions : [Cliquer pour afficher](https://github.com/MaximeCodeWeb/.git)
+Liste des versions : [Cliquer pour afficher](https://github.com/MaximeCodeWeb/LogitechTrainingWebsite.git)
 
 ## Auteurs
 * **MaximeCodeWeb** (https://github.com/MaximeCodeWeb)
