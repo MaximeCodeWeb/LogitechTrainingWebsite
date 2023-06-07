@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Noto+Sans&display=swap');
+*{
+    font-family: 'Noto Sans', sans-serif;
+}
+#containerLogoMain{
+    position: relative;
+    left: 50px;
+    top : 30px;
+    width: 740px;
+    user-select: none;
+    cursor: pointer;
+}
+#searchButton{
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    right: 0px;
+    top: 12px;
+    cursor: pointer;
+    transition: 0.25;
+    user-select: none;
+}
+#searchButton :hover{ width: 20px; height: 20px; position: absolute; right: 0px; top: 11px; cursor: pointer;
+}
+
+#secondeTitle{
+    position: relative;
+    left: 50px;
+    top : 77px;
+    font-size: 24px;
+    width: 200px;
+}
+#icôneChapeau{
+    width: 14px;
+    height: 6px;
+    position: relative;
+    left: 211px;
+    top: 26px;
+    user-select: none;
+}
+#mainTitle{
+    position: relative;
+    left: 50px;
+    top : 74px;
+    font-weight: bolder;
+    font-size: 56px;
+    width: 400px;
+}
+#containerImg{
+    position: relative;
+    top: 81px;
+    display: flex;
+    align-items: center;
+    user-select: none;
+}
+#imgClavier1{
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+#imgClavier1:hover{
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 12px;
+    cursor: pointer;
+    
+}
+#imgClavier2{
+    border: 2px solid #C4C4C4;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #ECECEC;
+    cursor: pointer;
+    transition: 0.2s;
+}
+#imgClavier2:hover{
+    border: 2px solid #C4C4C4;
+    border-radius: 4px;
+    padding: 12px;
+    background-color: #ECECEC;
+    cursor: pointer;
+}
+#imgClavier3{
+    border: 2px solid #F6DDE4;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #ECECEC;
+    cursor: pointer;
+    transition: 0.2s;
+}#imgClavier3:hover{
+    border: 2px solid #F6DDE4;
+    border-radius: 4px;
+    padding: 12px;
+    background-color: #ECECEC;
+    cursor: pointer;
+}
+
+
+#price{
+    position: relative;
+    left: 50px;
+    top : 74px;
+    width: 200px;
+    font-weight: 700px;
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#buttonBuy {
+    position: relative;
+    left: 50px;
+    top: 50px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #2F3132;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    width: 193px;
+    height: 58px;
+    text-align: center;
+    cursor: pointer
+}
+#buttonVidéo {
+    position: relative;
+    left: 258px;
+    top: -8px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    /* background-color: #2F3132; */
+    /* color: black; */
+    border-radius: 4px;
+    border: none;
+    width: 193px;
+    height: 58px;
+    text-align: center;
+    border: 2px solid #000000;
+    background-color: white;
+    cursor: pointer;
+}
+#containerButton{
+    position: relative;
+    top: 20px;
+    ;
+}
+#blabla{
+    width: 503px;
+    height: 196px;
+    position: relative;
+    left: 50px;
+    top: 20px;
+    color: #8E8E8E;
+}
+
+#containerShop{
+    display: flex;
+    position: relative;
+    left: 50px;
+    width: 500px;
+}
+#shopIcone{
+    padding-right: 10px;
+    user-select: none;
+}
+#textShop{
+    font-weight: bolder;
+    color: #494949;
+}
+#containerTime{
+    display: flex;
+    position: relative;
+    left: 50px;
+    top: -20px;
+    width: 500px;
+}
+#timeIcone{
+    padding-right: 10px;
+    user-select: none;
+}
+#textTime{
+    font-weight: bolder;
+    color: #494949;
+}
+#containerArcticleShopTime{
+    position: relative;
+    top: -20px;
+    height: 20px;
+}
+
+
+/*         Right Side         */
+
+#backgroundRight{
+    position: absolute;
+    right: -0.1px;
+    top: 0px;
+    height: 100%;
+    margin: 0px;
+    width: 1054.21px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 0px;
+    background-color: #DCDBDE;
+    opacity: 0.3;
+
+
+}
+#containerLeftSide{
+    position: absolute;
+    right: -0.1px;
+    top: 0px;
+    height: 100%;
+    margin: 0px;
+    width: 1054.21px;
+}
+
+#secondeContainerNav{
+    list-style: none;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #2F3132;
+    width: 500px;
+    position: relative;
+    top: 37px;
+    left: 40px;
+    cursor: pointer;
+    user-select: none;
+}
+.child{
+    transition: 0.4s;
+}
+.child:hover{
+    font-size: 16px;
+    top: 50px;
+    margin-top: 5px;
+    padding-top: 0px;
+}
+#containenShopProfil{
+    position: absolute;
+    right: 50px;
+    top: 37px;    
+}
+#shopLeft{
+    margin-right: 20px;
+    cursor: pointer;
+    user-select: none;
+}
+#profilePicture{
+    top: 5px;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+}
+#mainImgLeft{
+    position: absolute;
+    top: 25%;
+    right: 15%;
+    width: 700px;
+    height: 400px;
+    transition: 0.3s;
+    user-select: none;
+}
+#mainImgLeft:hover{width: 705px;height: 405px ;position: absolute; top: 25%; right: 15%;
+}
+#mainTitleLeft{
+    position: absolute;
+    font-weight: bolder;
+    top: 65%;
+    left: 25%;
+    font-size: 36px;
+}
+#arrow-down-circle{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    cursor: pointer;
+    transition: 0.4s;
+    user-select: none;
+    
+}
+#arrow-down-circle:hover{width: 57px; height: 57px ;position: absolute; top: 80%; left: 50%; cursor: pointer;transition: 3s;
+}
